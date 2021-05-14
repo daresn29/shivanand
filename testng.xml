@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="postive ">
+  <test name="Maven_Execution">
+    <classes>
+      <class name="TestNG_Examples.TestNG_Annotations"/>
+ </classes>
+  </test> 
+ </suite>

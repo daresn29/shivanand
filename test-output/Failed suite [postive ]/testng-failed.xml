@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [postive ]]">
+  <test name="Test_Testngaanotations(failed)(failed)">
+    <classes>
+      <class name="TestNG_Examples.Handling_Alert">
+        <methods>
+          <include name="Handling_alerts"/>
+        </methods>
+      </class> <!-- TestNG_Examples.Handling_Alert -->
+      <class name="TestNG_Examples.TestNG_Annotations">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestNG_Examples.TestNG_Annotations -->
+    </classes>
+  </test> <!-- Test_Testngaanotations(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [postive ]] -->

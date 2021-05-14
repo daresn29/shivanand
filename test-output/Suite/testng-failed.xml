@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="hybrid_Framework(failed)" parallel="tests">
+    <classes>
+      <class name="script.Login_Page">
+        <methods>
+          <include name="login"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- script.Login_Page -->
+    </classes>
+  </test> <!-- hybrid_Framework(failed) -->
+</suite> <!-- Failed suite [Suite] -->
